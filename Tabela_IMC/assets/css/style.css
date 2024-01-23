@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2F243A;
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+.clear{
+  clear: both;
+}
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 7px 12px 72px -4px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 7px 12px 72px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 12px 72px -4px rgba(0,0,0,0.75);
+  border-radius: 10px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+
+form input:focus {
+  outline: 1px solid #2F243A;
+}
+
+section input[type=submit] {
+  border: none;
+  background-color: #444054;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.resultado{
+  background-color: #2F243A;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  border-radius: 10px;
+
+}
+
+
+.wraper-1{
+  width: 50%;
+  float: left;
+}
+.resultado-wrap{
+  width: 50%;
+  float: right;
+}
